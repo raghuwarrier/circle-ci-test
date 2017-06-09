@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.GreetingControllerTests" time="0.261" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Users\WA2126\tools\ibm_sdk80\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\se-service.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\cuda4j.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\math.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmorb.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmorbapi.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmcfw.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmpkcs.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmcertpathfw.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmjgssfw.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmjssefw.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmsaslfw.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmjcefw.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmjgssprovider.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmjsseprovider2.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmcertpathprovider.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\xmldsigfw.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\xml.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\charsets.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\resources.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\rt.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\dataaccess.jar;C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ibmgpu.jar"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="pwa6480sr3-20160428_01 (SR3)"/>
+    <property name="user.name" value="WA2126"/>
+    <property name="java.compiler" value="j9jit28"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="nl"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Users\WA2126\tools\ibm_sdk80\jre\bin\compressedrefs;C:\Users\WA2126\tools\ibm_sdk80\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Users\WA2126\tools\ibm_sdk80\jre\bin\compressedrefs;C:\Users\WA2126\tools\ibm_sdk80\jre\bin"/>
+    <property name="classworlds.conf" value="C:\Users\WA2126\tools\maven3\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="java.version" value="1.8.0"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="com.ibm.system.agent.path" value="C:\Users\WA2126\tools\ibm_sdk80\jre\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="C:\Users\WA2126\tools\ibm_sdk80\jre\lib\endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="28"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="com.ibm.packed.version" value="2"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="NL"/>
+    <property name="java.home" value="C:\Users\WA2126\tools\ibm_sdk80\jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 7 amd64-64 Compressed References 20160427_301573 (JIT enabled, AOT enabled)&#10;J9VM - R28_Java8_SR3_20160427_1620_B301573&#10;JIT  - tr.r14.java.green_20160329_114288&#10;GC   - R28_Java8_SR3_20160427_1620_B301573_CMPRSS&#10;J9CL - 20160427_301573"/>
+    <property name="os.version" value="6.1"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="2.8"/>
+    <property name="user.variant" value=""/>
+    <property name="console.encoding" value="Cp850"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="\\solon.prd\branches\P\Global\Users\WA2126\Userdata"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="C:\Users\WA2126\tools\ibm_sdk80\jre\bin\compressedrefs;C:\Users\WA2126\tools\ibm_sdk80\jre\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Application Virtualization Client;C:\Program Files (x86)\EHLLAPI\;C:\Program Files (x86)\PortalClient\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files (x86)\Citrix\ICAService;C:\Program Files (x86)\Citrix\System32;C:\Program Files (x86)\InstallShield\AdminStudio\6.0\ConflictSolver;C:\Program Files (x86)\instantclient_12_2;C:\Program Files\instantclient_12_2;C:\Users\WA2126\tools\putty\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Users\WA2126\AppData\Local\atom\bin;C:\Users\WA2126\tools\maven3\apache-maven-3.3.9\bin;;."/>
+    <property name="java.vendor.url" value="http://www.ibm.com/"/>
+    <property name="java.vm.vendor" value="IBM Corporation"/>
+    <property name="java.fullversion" value="JRE 1.8.0 IBM J9 2.8 Windows 7 amd64-64 Compressed References 20160427_301573 (JIT enabled, AOT enabled)&#10;J9VM - R28_Java8_SR3_20160427_1620_B301573&#10;JIT  - tr.r14.java.green_20160329_114288&#10;GC   - R28_Java8_SR3_20160427_1620_B301573_CMPRSS&#10;J9CL - 20160427_301573"/>
+    <property name="maven.home" value="C:\Users\WA2126\tools\maven3\apache-maven-3.3.9"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.class.path" value="C:\Users\WA2126\tools\maven3\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\WA2126\AppData\Local\Temp\"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\WA2126\workspace-sts\gs-rest-service-master\complete"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="C:\Users\WA2126\tools\ibm_sdk80\jre\lib\ext"/>
+    <property name="user.dir" value="C:\Users\WA2126\workspace-sts\gs-rest-service-master\complete"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="IBM J9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="com.ibm.oti.jcl.build" value="20160427_301573"/>
+  </properties>
+  <testcase name="noParamGreetingShouldReturnDefaultMessage" classname="hello.GreetingControllerTests" time="0.2"/>
+  <testcase name="paramGreetingShouldReturnTailoredMessage" classname="hello.GreetingControllerTests" time="0.061"/>
+</testsuite>
