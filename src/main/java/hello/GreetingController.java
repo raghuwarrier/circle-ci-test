@@ -15,7 +15,7 @@ public class GreetingController {
 	private final  RestTemplate restTemplate;
 	@Autowired
 	private CustomerRepository repository;
-	
+
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
@@ -25,23 +25,23 @@ public class GreetingController {
     	System.out.println("Result of the rest call:" +  restTemplate.getForObject(
 				"http://gturnquist-quoters.cfapps.io/api/random", Quote.class));
     	repository.deleteAll();
-    	
+
     	// save a couple of customers
 		repository.save(new Customer("Alice", "Smith"));
 		repository.save(new Customer("Bob", "Smith"));
-    	
-    	
+		repository.save(new Customer("Bob", "Smith"));    	
+
 		System.out.println("Customers found with findAll():");
 		System.out.println("-------------------------------");
 		for (Customer customer : repository.findAll()) {
 			System.out.println(customer);
 		}
-		
+
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
-    
-    
+
+
     public GreetingController(RestTemplateBuilder restTemplateBuilder) {
         this.restTemplate = restTemplateBuilder.build();
     }
